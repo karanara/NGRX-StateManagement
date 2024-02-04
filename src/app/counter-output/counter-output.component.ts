@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Store } from '@ngrx/store';
+import { counterReducer } from '../store/counter.reducer';
 
 @Component({
   selector: 'app-counter-output',
